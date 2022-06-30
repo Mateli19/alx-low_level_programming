@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- *Something
+ *printing a c program that prints exact words followed by new line
 */
 int main(void)
 {
