@@ -1,15 +1,32 @@
 #include <stdio.h>
 
 /**
-* main - prints the size of various types
-* Return: 0 if exited properly, non-zero otherwise
+* main - starting my program
+* int intTYPE - data type
+*
+* Return 0-either-way
 */
 int main(void)
 {
-printf("size of a char: %d byte(s)\n", sizeof(char));
-printf("size of an int: %d byte(s)\n", sizeof(int));
-printf("size of an long int: %d byte(s)\n", sizeof(long int));
-printf("size of an long long int: %d byte(s)\n", sizeof(long long int));
-printf("size of an float: %d byte(s)\n", sizeof(float));
-return (0);
+        int intTYPE;
+        float floatTYPE;
+        char charTYPE;
+        long int longTYPE;
+        long long int longlongTYPE;
+/**
+ * printf - prints value enclosed in a bracket appropriatly
+ * parameter\n - Newline
+ * parameter sizeof(charTYPE - Evaluate size of char
+ *
+ * charTYPE - Data type
+ * @bytes(s) - character to be printed
+ * @size of - evaluates size of variable
+ */
+       printf("size of a char: %zu byte(s)\n", sizeof(charTYPE));
+       printf("size of an int: %zu byte(s)\n", sizeof(intTYPE));
+       printf("size of an long int: %zu byte(s)\n", sizeof(longTYPE));
+       printf("size of an long long int: %zu byte(s)\n", sizeof(longlongTYPE));
+       printf("size of an float: %zu byte(s)\n" sizeof(floatTYPE));
+/* return - 0 */
+       return (0);
 }
