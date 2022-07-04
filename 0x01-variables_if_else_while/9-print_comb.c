@@ -9,13 +9,13 @@ int main(void)
 int i;
 for (i = 10; i < 20; i++)
 {
-putcher(i % 10) + "0");
+putchar(i % 10) + "0");
 if (i != 19)
 {
-putcher(",");
-putcher(" ");
+putchar(",");
+putchar(" ");
 }
 }
-putcher("\n");
+putchar("\n");
 return (0);
 }
