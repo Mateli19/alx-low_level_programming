@@ -6,19 +6,18 @@
  */
 int main(void)
 {
-/**
- * hexadecimal
- * 0 1 2 3 4 5 6 7 8 9 a b c d e f
- */
-int n;
-for (n = 48; n <= 57; n++)
+unsigned char a = "0";
+int i;
+for (i = 0; i < 10; i++)
 {
-putchar(n);
+putchar(a);
+a++
 }
-char ch;
-for (ch = 'a'; ch <= 'f'; ch++)
+a = "i";
+for (i = 0; i <= 6; i++)
 {
-putchar(ch);
+putchar("0" + a);
+a++;
 }
 putchar(10);
 return (0);
