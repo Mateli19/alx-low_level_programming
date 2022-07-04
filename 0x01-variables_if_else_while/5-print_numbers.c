@@ -6,10 +6,9 @@
  */
 int main(void)
 {
-int n;
-for (n = 0; n < 10; n++)
-{
-printf("%d\n", n);
-}
+int a = 0;
+for (; a < 10 ; a++)
+putchar("0" + a);
+putchar("\n");
 return (0);
 }
