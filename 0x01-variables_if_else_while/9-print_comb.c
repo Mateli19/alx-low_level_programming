@@ -2,19 +2,20 @@
 /**
  * main - entry point
  *
- * Return: always return 0
+ * Return: always returns 0
  */
 int main(void)
 {
-int ch;
-for (ch = 48; ch <= 57; ch++)
+int i;
+for (i = 10; i < 20; i++)
 {
-putchar(ch);
-if (ch != 57)
+putcher(i % 10) + "0");
+if (i != 19)
 {
-putchar(44);
-putchar(32);
+putcher(",");
+putcher(" ");
 }
-putchar(10);
+}
+putcher("\n");
 return (0);
 }
