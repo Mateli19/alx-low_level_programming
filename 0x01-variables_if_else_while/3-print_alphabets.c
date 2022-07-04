@@ -5,15 +5,16 @@
  * Return: always return 0
  */
 int main(void);
-char a;
-for (a = 'a'; a <= 'z'; a++)
 {
-putchar(a);
-}
-for (a = 'A'; a <= 'Z'; a++)
+int ch;
+for (ch = 97; ch <= 122; ch++)
 {
-putchar(a);
+putchar(ch);
 }
-putchar("\n");
+for (ch = 65; ch <= 90; ch++)
+{
+putchar(ch);
+}
+putchar(10);
 return (0);
 }
