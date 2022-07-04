@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - entry point
  *
@@ -6,11 +6,9 @@
  */
 int main(void)
 {
-int ch;
-for (ch = 48; ch <= 57; ch++)
-{
-putchar(ch);
-{
-putchar("10"); /*this is an ascii code for new line*/
+int a = 0;
+for (; a < 10; a++)
+putchar("0" + a);
+putchar("\n");
 return (0);
 }
